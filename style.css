@@ -14,9 +14,11 @@
 /* text css above hero image*/
 .hero_title {
   font-size: 4rem;
+  opacity: 80%;
 }
 .hero_desc {
   font-size: 1.3rem;
+  opacity: 80%;
 }
 .hero-text {
   text-align: center;
@@ -24,6 +26,26 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+}
+
+p {
+  color: midnightblue;
+}
+
+li {
+  color: midnightblue;
+}
+
+.text-center {
+  color: midnightblue;
+}
+
+.card-title {
+  color: midnightblue;
+}
+
+.hero_desc {
   color: white;
 }
 
@@ -60,22 +82,25 @@
   font-size: 36px;
   text-align: center;
   width: 100%;
+  color: midnightblue;
 }
 .card-title {
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: lightpink;
-}
-.servicesText:hover {
-  border: 1px solid lightpink;
+  color: aliceblue;
 }
 
 /*portfolio section styling */
 
 .text-center a {
-  background-color: chocolate;
+  background-color: midnightblue;
   border: none;
+}
+
+.text-center a:hover {
+  color: white;
+  background-color: darkslateblue;
 }
 
 /* social media icons styling */
@@ -87,7 +112,7 @@
 .fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
-.fa-twitch:hover {
+.fa-github:hover {
   color: chocolate;
 }
 .fab {
