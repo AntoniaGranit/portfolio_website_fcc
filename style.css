@@ -31,10 +31,12 @@
 
 p {
   color: midnightblue;
+  font-size: 14px;
 }
 
 li {
   color: midnightblue;
+  font-size: 14px;
 }
 
 .text-center {
@@ -118,6 +120,7 @@ li {
 .fab {
   color: white;
 }
+
 /* footer styling */
 #footer {
   background-color: peachpuff;
