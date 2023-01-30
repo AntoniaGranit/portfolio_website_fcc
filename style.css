@@ -71,6 +71,13 @@
   border: 1px solid lightpink;
 }
 
+/*portfolio section styling */
+
+.text-center a {
+  background-color: chocolate;
+  border: none;
+}
+
 /* social media icons styling */
 .social-icons {
   font-size: 36px;
